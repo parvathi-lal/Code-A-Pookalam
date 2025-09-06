@@ -1,33 +1,48 @@
-<img width="1920" height="1080" alt="event app size (1)" src="https://github.com/user-attachments/assets/9c18c1de-1249-41ca-9561-1bc003606551" />
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1000px;
+            margin: 0;
+            background: transparent;
+        }
+        .circle
+        {
+            width: 800px;
+            height: 800px;
+            border: 50px solid orange;
+            background: green;
+            border-radius: 50%; 
+            position: absolute;
+        }
+        .inner
+        {
+            width: 500px;
+            height: 500px;
+            border: 50px solid blue;
+            background: red;
+            border-radius: 50%;
+            position: relative;
 
-# Code-A-Pookalam 🌸
-Welcome to CODE-A-പൂക്കളം, a creative coding challenge scheduled from September 1–6, where tradition meets technology! 🌼
-
-
-### Your Details
-- [Name] - [Branch] - [Semester]
-
-
-
-### Hosted Pookalam Link
-
-
-
-### Pookalam Description
-Brief description about your pookalam. What makes it special and different.
-
-
-
-### Technologies Used 
-
-
-### Video explaining How you build the pookalam
-
-
-
-### Screenshots
-
-
-
-Happy Onam ! <br>
-Made with ❤️ at TinkerHub LBSITW
+        }
+        .outer
+        {
+            width: 200px;
+            height: 200px;
+            border: 50px solid green;
+            background: transparent;
+            border-radius: 50%;
+            position: absolute; 
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="inner"></div>
+    <div class="outer"></div>
+</body>
+</html>
